@@ -13,7 +13,7 @@ let product = [
         "subject": "English",
         "location": "Alabama",
         "price": "399",
-        "image": "images/english (custom).png",
+        "image": "images/english (Custom).png",
         "space": 5,
         "rating": 4,
         "color": "#00BDDE"
@@ -41,7 +41,7 @@ let product = [
         "subject": "History",
         "location": "Washington DC",
         "price": "999",
-        "image": "images/history (custom).png",
+        "image": "images/history (Custom).png",
         "space": 5,
         "color": "#f0b7c2",
         "rating": 1
@@ -60,7 +60,7 @@ let product = [
         "subject": "Spanish",
         "location": "Miami",
         "price": "9999",
-        "image": "images/spanish (custom).png",
+        "image": "images/spanish (Custom).png",
         "space": 5,"color": "#64dde0",
         "rating": 1
     , "quantity":0 }, {
@@ -68,7 +68,7 @@ let product = [
         "subject": "French",
         "location": "Cincinnati",
         "price": "9999",
-        "image": "images/french (custom).png",
+        "image": "images/french (Custom).png",
         "space": 5,"color": "#d43a56",
         "rating": 1
     , "quantity":0 }, {
@@ -76,7 +76,7 @@ let product = [
         "subject": "Chemistry",
         "location": "New Jersey",
         "price": "9999",
-        "image": "images/chemistry (custom).png",
+        "image": "images/chemistry (Custom).png",
         "space": 5,"color": "#ff6321",
         "rating": 1
     , "quantity":0 }, 
@@ -85,7 +85,7 @@ let product = [
         "subject": "Psychology",
         "location": "Salem",
         "price": "9999",
-        "image": "images/psychology (custom).png",
+        "image": "images/psychology (Custom).png",
         "space": 5,"color": "#c090d0",
         "rating": 1
     , "quantity":0 }, {
@@ -101,7 +101,7 @@ let product = [
         "subject": "Physics",
         "location": "Los Angeles",
         "price": "9999",
-        "image": "images/Physics (custom).png",
+        "image": "images/Physics (Custom).png",
         "space": 5,"color": "#89d417",
         "rating": 1
     , "quantity":0 }, 
