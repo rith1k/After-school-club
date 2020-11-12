@@ -26,7 +26,32 @@
 
 <body>
     <div id="app" style="width: 100%;">
+        <nav class="m-5 shadow-lg navbar align-center justify-content-start navbar-expand-lg navbar-light fixed pr-5">
+            <a class="navbar-brand" href="#"><img src="/images/logo.png" style="object-fit:cover; width:80px;"
+                    alt=""></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
 
+            <div class="collapse navbar-collapse pr-5   clearfix" id="navbarSupportedContent">
+                <ul class="navbar-nav   d-flex justify-content-around">
+
+                    <li class="nav-item  w-25 ">
+                        <form v-cloak class="form-inline my-6 my-lg-0">
+                            <input class="form-control shadow-lg search__input" v-model="searchString"
+                                style="width:1000px;" v-model="filter" type="text" placeholder="Search for Classes"
+                                aria-label="Search">
+                        </form>
+                    </li>
+            
+
+                </ul>
+            </div>
+
+
+
+        </nav>
         <main class="  justify-content-center">
 
             <div v-if="showProduct" class="justify-content-center shadow-lg m-5"
