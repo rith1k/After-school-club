@@ -57,7 +57,47 @@
             <div v-if="showProduct" class="justify-content-center shadow-lg m-5"
                 style="background-color: transparent; backdrop-filter: blur 5px;">
                 <h1 class=" p-3 mt-5  header  container justify-content-around">After School Classes</h2>
-
+                    <div class=" p-4 dropdown jumbotron-fluid align-content-between align-right mr-5 pr-5">
+                        <button class="btn btn-default dropdown-toggle float-right shadow-lg border-dark " type="button"
+                            id="menu1" data-toggle="dropdown">Sort
+                            by : {{sortType}}
+                            <span class="caret"></span></button>
+                        <ul class="dropdown-menu p-3 mr-5 text-black-50" role="menu" aria-labelledby="menu1">
+                            <li role="presentation"><a role="menuitem" v-on:click="sort('Subject-Low-to-High')"
+                                    tabindex=" -1" href="#"
+                                    class="w3-text-black text-decoration-none w3-hover-text-pink   p-3">Subject Name A-Z
+                                    <span class="far fa fa-arrow-up"></span></a></li>
+                            <li role="presentation"><a role="menuitem" v-on:click="sort('Subject-High-to-Low')"
+                                    tabindex="-1" href="#"
+                                    class="w3-text-black text-decoration-none w3-hover-text-pink  p-3">Subject Name Z-A
+                                    <span class="far fa fa-arrow-down"></span></a></li>
+                            <li role="presentation"><a role="menuitem" v-on:click="sort('Price-Low-to-High')" vtabindex="-1"
+                                    href="#" class="w3-text-black text-decoration-none w3-hover-text-pink  p-3">Price A-Z
+                                    <span class="far fa fa-arrow-up"></span></a></li>
+                            <li role="presentation"><a role="menuitem" v-on:click="sort('Price-High-to-Low')" tabindex="-1"
+                                    href="#" class="w3-text-black text-decoration-none w3-hover-text-pink  p-3">Price Z-A
+                                    <span class="far fa fa-arrow-down"></span></a></li>
+                            <li role="presentation"><a role="menuitem" v-on:click="sort('Location-Low-to-High')"
+                                    tabindex=" -1" href="#"
+                                    class="w3-text-black text-decoration-none w3-hover-text-pink  p-3">Location A-Z
+                                    <span class="far fa fa-arrow-up"></span></a></li>
+    
+                            <li role="presentation"><a role="menuitem" v-on:click="sort('Location-High-to-Low')"
+                                    tabindex=" -1" href="#"
+                                    class="w3-text-black text-decoration-none w3-hover-text-pink  p-3">Location Z-A
+                                    <span class="far fa fa-arrow-down"></span></a></li>
+                            <li role="presentation"><a role="menuitem" v-on:click="sort('Availability-Low-to-High')"
+                                    tabindex=" -1" href="#"
+                                    class="w3-text-black text-decoration-none w3-hover-text-pink  p-3">Availability A-Z
+                                    <span class="far fa fa-arrow-up"></span></a></li>
+    
+                            <li role="presentation"><a role="menuitem" v-on:click="sort('Availability-High-to-Low')"
+                                    tabindex=" -1" href="#"
+                                    class="w3-text-black text-decoration-none w3-hover-text-pink  p-3">Availability Z-A
+                                    <span class="far fa fa-arrow-down"></span></a></li>
+                        </ul>
+                    </div>
+    
                     <div class="container1 ">
                         <div class="card1 shadow-lg w3-animate-zoom" v-for="(product, index) in sortedProducts"
                             :key="index" v-bind:style="{ background: product.color}">
