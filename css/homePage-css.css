@@ -1,45 +1,45 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;500;600&display=swap");
 * {
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
 }
 
 input[type="color"] {
-    width: 40px;
-    border: 1px solid black;
-    margin: 0px;
-    padding: 0px !important;
-    height: 40px;
-  }
+  width: 40px;
+  border: 1px solid black;
+  margin: 0px;
+  padding: 0px !important;
+  height: 40px;
+}
 
-  .input-qty {
-    width: 60px;
-    float: right
-  }
-  
-  .table-cart > tr > td {
-    vertical-align: middle !important;
-  }
-  
+.input-qty {
+  width: 60px;
+  float: right;
+}
+
+.table-cart > tr > td {
+  vertical-align: middle !important;
+}
 
 .container1 {
-  margin: 8em auto;
+  margin: 2em auto;
   display: flex;
   justify-content: space-evenly;
   flex-wrap: wrap;
 }
-#app{
+#app {
   background: fixed;
   backdrop-filter: blur(5px);
 
- 
-height: 100%;}
-ul li{
+  height: 100%;
+}
+ul li {
   list-style: none;
 }
 .card1 {
   width: 330px;
   border-radius: 20px;
   padding: 35px;
+  
   margin: 15px;
   box-shadow: 10px 10px 50px rgba(0, 0, 0, 0.2);
   background: whitesmoke;
@@ -70,16 +70,13 @@ ul li{
   text-align: center;
   z-index: 1;
   position: relative;
-  height: 130px;
 }
 .img img {
   filter: drop-shadow(0 50px 27px rgba(0, 0, 0, 0.4));
-  transition: all .5s ease;
-  position: absolute;
+  transition: all 0.5s ease;
   left: 0;
   right: 0;
   margin: 0 auto;
-object-fit: cover;
 }
 
 .amount {
@@ -124,28 +121,26 @@ object-fit: cover;
   margin-top: 30px;
 }
 .foot-card11 {
-    display: flex;
-    justify-content: space-between;
-    margin-top: 30px;
-  }
-.foot-card1 button {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 30px;
+
   border-radius: 10px;
-      border: 2px solid black;  
-width: 100%;
+  border: 2px solid black;
+  width: 100%;
   padding: 1.2em 0;
   background: white;
   font-weight: bold;
-  transition: all .2s;
-}
-.foot-card11 button {
-    border-radius: 10px;
-    border: none;    border: 2px rounded black;  
+  transition: all 0.2s;
+  border-radius: 10px;
+  border: none;
+  border: 2px rounded black;
 
-    background: white;
-    font-weight: bold;
-    transition: all .2s;
-  }
-.foot-card1 button:hover {
+  background: white;
+  font-weight: bold;
+  transition: all 0.2s;
+}
+.foot-card1 :hover {
   background: tomato;
   color: white;
 }
@@ -153,5 +148,56 @@ width: 100%;
   margin: auto 0;
 }
 .foot-card11 .save {
-    margin: auto 0;
-  }
+  margin: auto 0;
+}
+ul.dropdown-cart {
+  min-width: 250px;
+  border: 2px solid #343434;
+  padding: 2px;
+  margin: 7px;
+  margin-top: 11px;
+}
+
+ul.dropdown-cart li .item {
+  display: block;
+  padding: 3px 10px;
+  margin: 3px 0;
+}
+
+ul.dropdown-cart li .item:hover {
+  background-color: #c3c5c5;
+}
+
+ul.dropdown-cart li .item:after {
+  visibility: hidden;
+  display: block;
+  font-size: 0;
+  content: " ";
+  clear: both;
+  height: 0;
+}
+
+ul.dropdown-cart li .item-left {
+  float: left;
+}
+
+ul.dropdown-cart li .item-left img,
+ul.dropdown-cart li .item-left span.item-info {
+  float: left;
+}
+
+ul.dropdown-cart li .item-left span.item-info {
+  margin-left: 10px;
+}
+
+ul.dropdown-cart li .item-left span.item-info span {
+  display: block;
+}
+
+ul.dropdown-cart li .item-right {
+  float: right;
+}
+
+ul.dropdown-cart li .item-right button {
+  margin-top: 14px;
+}
