@@ -20,7 +20,7 @@ let product = [
 
     , "quantity":0 },  {
         "id": 1003,
-        "subject": "Japanese",
+        "subject": "japanese",
         "location": "Montreal",
         "price": "150",
         "image": "images/Japanese.jpg",
@@ -50,7 +50,7 @@ let product = [
         "subject": "Biology",
         "location": "Boston",
         "price": "9999",
-        "image": "images/Biology.jpg",
+        "image": "images/biology.jpg",
         "space": 5,
         "color": "#50EC32",
         "rating": 1
@@ -93,7 +93,7 @@ let product = [
         "subject": "Geography",
         "location": "El Paso",
         "price": "9999",
-        "image": "images/Geography.jpg",
+        "image": "images/geography.jpg",
         "space": 5,"color": "#eb9411",
         "rating": 1
     , "quantity":0 }, {
@@ -101,7 +101,7 @@ let product = [
         "subject": "Physics",
         "location": "Los Angeles",
         "price": "9999",
-        "image": "images/Physics (Custom).png",
+        "image": "images/physics (Custom).png",
         "space": 5,"color": "#89d417",
         "rating": 1
     , "quantity":0 }, 
