@@ -2,8 +2,8 @@
 
 * {
   font-family: "Poppins", sans-serif;
+ 
 }
-
 input[type="color"] {
   width: 40px;
   border: 1px solid black;
@@ -37,6 +37,7 @@ ul li {
   list-style: none;
 }
 .card1 {
+  
   width: 330px;
   border-radius: 20px;
   padding: 35px;

@@ -1,4 +1,4 @@
-let product = [
+let lesson = [
     {
         "id": 1001,
         "subject": "Computer Science ",
